@@ -1,0 +1,76 @@
+.bg-image {
+  background-image: url("image.jpg");
+  background-size: cover;
+  font-family: "Lucida Console", Courier;
+}
+.title {
+  margin-left: 5%;
+  display: flex;
+  color: #eae9e0;
+  margin-bottom: 50px;
+  margin-top: 10px;
+}
+.title input {
+  float: none;
+  width: 35%;
+  height: 30%;
+  margin-left: 35%;
+  margin-top: 20px;
+  padding: 14px;
+}
+.list-title {
+  display: flex;
+  color: #eae9e0;
+  font-size: 15px;
+  margin-top: 50px;
+}
+.scroll {
+  width: 5px;
+  height: 5px;
+  scroll-behavior: smooth;
+}
+
+a,
+a:visited,
+a:active,
+hm-title {
+  color: #eae9e0;
+  text-decoration: none;
+  margin-top: 60px;
+  padding: 15px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+}
+.row::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+.tile:hover {
+  opacity: 0.8;
+  border: dotted;
+  border-radius: 25px;
+  background-color: skyblue;
+}
+.tile a {
+  font-size: 20px;
+  color: black;
+}
+.tile {
+  margin-right: 10px;
+  padding: 5px;
+  text-align: left;
+  font-size: 12px;
+  cursor: pointer;
+  -webkit-transition: 450ms all;
+  transition: 450ms all;
+}
+.tile img {
+  border-radius: 15%;
+  background-size: contain;
+  max-width: 180px;
+  max-height: 200px;
+  padding: 5px;
+}
